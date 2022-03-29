@@ -24,10 +24,16 @@ a:hover {
    
    
 }
+
 .darkmode select:hover {
-    box-shadow: 1px 1px 1px red!important;
+    transition: 1s;
+    box-shadow: 1px 1px 1px 1px red!important;
 }
 .container {
     max-width: 1200px;
     margin: 20px auto;
+    box-shadow: -3px -3px 8px 0px #cccccccf;
+    padding: 20px;
+    border-radius: 5px;
+   
 }
